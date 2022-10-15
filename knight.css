@@ -1,0 +1,151 @@
+body{
+	font-size: 15px;
+	font-family: Arial;
+	background-color: #132835;
+	overflow: hidden; 
+	
+}
+
+header{
+	display: flex;
+	width: 100%;
+	background-color: #132835;
+	position: fixed;
+	padding: 20px;
+	height: 17px;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+/*imagem no menu*/
+.logo{
+	width: 90px;
+	margin-left: -20px;
+	margin-top: -10px;
+}
+
+/*estilização menu*/
+.menu{
+	align-items: center;
+	justify-content: center;
+	margin-left: -10px;
+}
+
+.menu ul{
+	margin-left: 700px;
+	list-style: none;
+	display: flex;
+	color: #ffff;
+}
+
+
+.menu ul li{
+   margin-top: -30px;
+   justify-content: column;
+   align-items: center;
+   padding: 0 25px; 
+
+}
+
+.menu ul li a{
+   color: #ffff;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.menu ul li a:hover{
+	color: #33ccff;
+	}
+
+.titulo{
+	color: #fff;
+    margin: 0;
+    margin-top: -35px;
+    margin-left: 55px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+/*fim da estilização menu*/
+
+
+/*estilização do section*/
+section{
+    display: flex;
+    position: relative;
+    min-height: 120vh;
+    align-items: center;
+}
+
+.sec_texto{
+	color: #ffff;
+	width: 50%;
+	text-align: center;
+}
+
+.sec_texto h1{
+	font-size: 3rem;
+	margin-top: 10px;
+	text-shadow: 3px 0 #007399,
+	     -3px 0 #007399,
+	      0 3px #007399,
+	      0 -3px #007399,
+	      2px 2px #007399,
+	      -2px -2px #007399,
+	      2px -2px #007399,
+	      -2px 2px #007399;
+}
+
+.sec_texto p{
+	font-size: 20px;
+	margin: 30px 40px;
+	font-weight: 400px;
+	text-align: center;
+	margin-top: -30px;
+}
+
+.sec_texto div{
+	text-align: left;
+}
+
+.sec_texto div button{
+	font-size: 22px;
+	color: #ffff;
+	border:none;
+	background-color: transparent;
+	margin-right: 30px;
+	font-weight: 300px;
+}
+
+.sec_texto div button ion-icon{
+	font-size: 38px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.sec_texto div button:first-child{
+	display: inline-flex;
+	align-items: center;
+	margin-left: 180px;
+
+}
+
+.sec_texto div button:last-child{
+	border: 1px solid #ffff;
+	border-radius: 50px;
+	padding: 20px;
+}
+
+/*estilização da imagem do section*/
+.sec_img{
+	position: absolute;
+	right: -20px;
+	bottom: -40px;
+	margin-top: 
+}
+
+.sec_img img{
+	width: 980px;
+	margin-top: -30px;
+}
